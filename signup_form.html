@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+
+  <title>Registration Form</title>
+
+  <!-- CSS -->
+
+  <!-- google fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+
+  <!-- files -->
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/css/magnific-popup.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.css" rel="stylesheet">
+  <link href="assets/css/owl.carousel.theme.min.css" rel="stylesheet">
+  <link href="assets/css/ionicons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+
+
+<!-- Include CSS File Here -->
+<link rel="stylesheet" href="assets/css/main.css"/>
+<!-- Include JS File Here -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/registration.js"></script>
+
+  <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
+<style>
+* {
+    box-sizing: border-box;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: white;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+#site-header-container {
+  background-color: #111;
+}
+
+#header-container {
+  background-color: #111;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+	color: #fabe12;
+	background-color: transparent;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 10px;
+    }
+}
+</style>
+</head>
+<body>
+  <!-- Site Header -->
+  <div class="site-header-bg">
+      <div class="container" id="site-header-container">
+          <div class="row">
+              <div class="col-sm-6">
+                  <a href="index.html"><img src="assets/images/EG_xray.png" alt="logo"></a>
+              </div>
+              <div class="col-sm-3 col-sm-offset-3 text-right">
+                  <form>
+                      <div class="input-group">
+                          <input type="text" class="form-control" placeholder="">
+                          <span class="input-group-btn">
+                              <button class="btn btn-default btn-robot" type="button">Search</button>
+                          </span>
+                      </div><!-- /input-group -->
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Header -->
+      <section id="header" class="main-header contact-header inner-header">
+          <div class="container" id="header-container">
+              <div class="row">
+                  <nav class="navbar navbar-default">
+                      <div class="navbar-header">
+                          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#site-nav-bar" aria-expanded="false">
+                              <span class="sr-only">Toggle navigation</span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                              <span class="icon-bar"></span>
+                          </button>
+                      </div>
+
+                      <div class="collapse navbar-collapse" id="site-nav-bar">
+                          <ul class="nav navbar-nav">
+                              <li class="active"><a href="index.html">Home</a></li>
+                              <li><a href="about.html">About</a></li>
+                              <li><a href="evil_name_generator.html">Evil Name Generator</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                              <li><a href="signup_form.html">Sign Up</a></li>
+                              <li><a href="login.html">Log In</a></li>
+                          </ul>
+                      </div><!-- /.navbar-collapse -->
+                  </nav>
+              </div>
+
+              <div class="intro row">
+                  <div class="overlay"></div>
+                    <div class="col-sm-12">
+                        <ol class="breadcrumb">
+                            <li><a href="index.html">Home</a></li>
+                            <li class="active">Sign Up</li>
+                        </ol>
+                    </div>
+                  </div> <!-- /.intro.row -->
+              </div> <!-- /.container -->
+        </section> <!-- /#header -->
+
+
+<div class="container">
+  <div class="main">
+    <h2>Join the Evil Genius Co-operative Now!</h2>
+    <a href="evil_name_generator.html"><p>If you haven't decided on a name for your Evil Genius Identity, click here and we'll generate one for you.</p></a>
+    <p>Don't worry, you can always change your Evil Genius Name at anypoint in the future.</p>
+  </div>
+</div>
+
+<div class="container">
+  <div class="main">
+    <form class="form" method="post" action="#">
+      <h2>Register To Become A Member of the E.G.C.</h2>
+        <label>Evil Genius Name :</label>
+          <input type="text" name="dname" id="name">
+        <label>Email :</label>
+          <input type="text" name="demail" id="email">
+        <label>Password :</label>
+          <input type="password" name="password" id="password">
+        <label>Confirm Password :</label>
+          <input type="password" name="cpassword" id="cpassword">
+          <input type="button" name="register" id="register" value="Register">
+    </form>
+  </div>
+</div>
+
+
+  <!-- Footer -->
+  <section id="footer-widget" class="footer-widget">
+      <div class="container header-bg">
+          <div class="row">
+              <div class="col-sm-3">
+                  <h3>Our Popular Services</h3>
+                  <ul>
+                      <li><a href="evil_name_generator.html">Evil Alter Ego Name Generator</a></li>
+                      <li><a href="#">QUIZ - What's Your Evil Genius Personality Type?</a></li>
+                      <li><a href="#">Vote on the Best Plot for World Domination</a></li>
+                  </ul>
+              </div>
+              <div class="col-sm-3">
+                  <h3>Important Link</h3>
+                  <ul>
+                      <li><a href="wds.html">World Domination Summit</a></li>
+                      <li><a href="signup_form.html">Sign Up</a></li>
+                      <li><a href="login.html">Log In</a></li>
+                  </ul>
+              </div>
+          </div> <!--div class="row"-->
+      </div> <!--div class="container"-->
+  </section>
+  <footer class="footer text-center">
+      <h3>&copy; Theme by <a href="https://ntmbayfield.github.io.com/">Reflective Design Studio</a></h3>
+  </footer>
+
+  <!-- Scripts -->
+      <script src="assets/js/jquery-1.12.3.min.js"></script>
+      <script src="assets/js/bootstrap.min.js"></script>
+      <script src="assets/js/jquery.magnific-popup.min.js"></script>
+      <script src="assets/js/owl.carousel.min.js"></script>
+      <script src="assets/js/script.js"></script>
+
+
+</body>
+</html>
